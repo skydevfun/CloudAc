@@ -1,0 +1,29 @@
+language: en
+
+checks:
+  killaura:
+    enabled: true
+    alert-vl: 3
+    cancel-damage: true
+
+  hitbox:
+    enabled: true
+    alert-vl: 5
+    cancel-vl: 3
+    cancel-damage: true
+    ping-buffer-ticks: 2
+    vl-on-miss: 2
+    vl-decay-on-hit: 1
+
+  reach:
+    enabled: true
+    max-reach: 3.1
+    alert-vl: 5
+    cancel-vl: 3
+    cancel-damage: true
+    ping-buffer-ticks: 2
+    vl-decay-on-hit: 1
+
+  wallhit:
+    enabled: true
+    cancel-damage: true

@@ -1,0 +1,31 @@
+ai-punishments:
+  enabled: true
+  threshold: 0.95
+  actions:
+    - "COMMAND"
+  kick-message: "§c§lCloudAC §8» §fВы были кикнуты за использование стороннего софта (AI)."
+  commands:
+    - "tempban %player% 7d Использование читов (AI)"
+
+vl-punishments:
+  killaura:
+    enabled: true
+    threshold: 15
+    actions:
+      - "KICK"
+    kick-message: "§c§lCloudAC §8» §fВы были кикнуты за подозрение в KillAura."
+    commands: []
+  reach:
+    enabled: true
+    threshold: 8
+    actions:
+      - "KICK"
+    kick-message: "§c§lCloudAC §8» §fВы были кикнуты за подозрение в Reach."
+    commands: []
+  hitbox:
+    enabled: true
+    threshold: 8
+    actions:
+      - "KICK"
+    kick-message: "§c§lCloudAC §8» §fВы были кикнуты за подозрение в Hitbox."
+    commands: []
